@@ -1,26 +1,85 @@
 
 body {
-  background-color: black;
-  color: white
+  background-color: white;
+  color: black;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.header {
+  background-color:#FFEBCD;
+  padding:10px;
+  text-align:left;
+} 
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 h1 {
-  font-size: 20px
+  font-size: 20px;
+  border-style: groove;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }  
 
-p {
-  color: green;
-  font-size: 12px;
-}
-			
-.mydiv {
-  border: 2px dotted black;
-  height: 100px;
-  width: 100px;
+.column{
+ float: left;
+ padding: 15px;
 }
 
-ul {
-  list-style-type:square; 
+/* Middle column- section and article*/
+.column.middle {
+  width: 60%;
 }
 
-    
+.article.img {
+  width: 30%;
+  margin-bottom: 5px;
+}
+
+/* side column */
+.column.side {
+  width: 30%;
+}
+
+footer {
+  background-color:#F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+
+.menupage {
+  text-align: center;
+  padding: 40px 0 80px;
+}
+
+.menupage.img {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.gallerycolumn{
+  float:left;
+  width: 33%;
+  padding: 5px;
+}
+
+.gallery.img{
+  width:10%;
+  float: left;
+}
+
