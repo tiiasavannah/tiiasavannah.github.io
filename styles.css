@@ -43,7 +43,8 @@ h1 {
 
 /* Middle column- section and article*/
 .column.middle {
-  width: 60%;
+  width: 50%;
+  background-color:#FFFAF0;
 }
 
 .article.img {
@@ -54,6 +55,7 @@ h1 {
 /* side column */
 .column.side {
   width: 30%;
+  background-color:#FFEBCD; 
 }
 
 footer {
@@ -72,14 +74,36 @@ footer {
   margin-bottom: 40px;
 }
 
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: gold;
+}
+
 .gallerycolumn{
   float:left;
-  width: 33%;
+  width:90%;
   padding: 5px;
 }
 
 .gallery.img{
-  width:10%;
+  width:5%;
   float: left;
 }
+
 
