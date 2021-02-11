@@ -1,0 +1,120 @@
+.footer {​​​​
+  	bottom: 0;
+	width:100%;
+	background-color: #2F4F4F;
+	color: white;
+ 	text-align: left;
+	padding:10px;
+}
+
+body {
+	background-color: #FFF5EE;
+    	color: black;
+  }
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #DCDCDC;
+    color: black;
+  }
+}
+
+.jumbotron {	
+	padding: 5px;
+	background-image: url("pics/silmat1.jpg");
+	background-repeat: no-repeat;
+	width:200%;
+	background-size:50%;	
+}
+
+h1 {
+	text-shadow: 2px 3px pink;
+}
+
+h2 {
+	font-size: 20px;
+}
+p {
+	font-size: 14px;
+}
+
+ul {
+	font-size: 14px;
+}
+
+.nav{
+	text-align: left;
+	float: none;
+	padding: 0px;
+}
+
+/* unvisited link */
+a:link {
+  color: #000080;
+  transition: all 0.2s linear;
+}
+
+/* visited link */
+a:visited {
+  color: #2F4F4F;
+}
+
+/* mouse over link */
+a:hover {
+  color: gold;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+#main{
+	text-align: left;
+	float: none;
+	padding: 20px;
+	width: 60%;
+	margin-left: 10%;
+}
+
+
+/* used in home page */
+.column{
+	float: left;
+	width: 40%;
+	padding: 10px;
+	height: auto;
+}
+
+/* next up page */
+#column{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	margin-left: 10%;
+}
+
+#column-side{
+	float: left;
+	width: 20%;
+	padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* main page */
+#text{
+	
+	float: left;
+	padding: 5%;
+	width: 50%;
+}
+
+
+
