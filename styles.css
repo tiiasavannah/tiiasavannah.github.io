@@ -110,7 +110,6 @@ a:active {
 
 /* main page */
 #text{
-	
 	float: left;
 	padding: 5%;
 	width: 50%;
@@ -118,8 +117,7 @@ a:active {
 iframe{
 	text-align: left;
 	float: none;
-	width: 60%;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 
 
