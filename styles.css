@@ -115,6 +115,11 @@ a:active {
 	padding: 5%;
 	width: 50%;
 }
-
+iframe{
+	text-align: left;
+	float: none;
+	width: 60%;
+	margin-left: 5%;
+}
 
 
