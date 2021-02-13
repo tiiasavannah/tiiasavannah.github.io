@@ -6,16 +6,10 @@ aside {
 }
 
 
-aside-main {
-  width: 30%;
-  padding-left: 5px;
-  margin-left: 5px;
-  float:left;
-}
-
-body {
+body,html {
 	background-color: #FFF5EE;
     	color: black;
+	height: 150%;
   }
 
 
@@ -37,6 +31,7 @@ body {
 h1 {
 	text-shadow: 2px 3px pink;
 }
+
 
 h2 {
 	font-size: 20px;
@@ -76,13 +71,7 @@ a:active {
   color: blue;
 }
 
-#home{
-	text-align: left;
-	float: none;
-	padding: 20px;
-	width: 80%;
-	margin-left: 10%;
-}
+
 
 #main{
 	text-align: left;
@@ -94,14 +83,39 @@ a:active {
 
 
 /* used in home page */
-.column{
-	float: left;
-	width: 40%;
-	padding: 10px;
-	height: auto;
 }
 
+.container {
+  min-height: 100%;
+  height: auto !important;
+  height: 150%;
+  margin: 0 auto -42px;
+  position: relative; 
+}
 
+section {
+  width: 100%;
+  height: 150%;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 40%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  height:150%;
+}
+
+/* Pattern styles */
+.left-half {
+  float: left;
+  width: 40%;
+}
+.right-half {
+  float: left;
+  width: 60%;
+}
 
 /* main page */
 #text{
@@ -115,12 +129,27 @@ iframe{
 	margin-left: 10%;
 }
 
-
 .footer {​​​​
-  	bottom: 0;
+ 	Position: absolute; 
+	bottom: 0px;
 	width:100%;
 	background-color: #C0C0C0;
 	color: #2F4F4F;
  	text-align: left;
 	padding:10px;
+}
+
+#footer {​​​​
+  	clear:both;
+	Position: absolute; 
+	bottom: 0px;
+	width:100%;
+	background-color: #C0C0C0;
+	color: #2F4F4F;
+ 	text-align: left;
+	padding:10px;
+}
+
+#footer,.push{
+	height:42px;
 }
