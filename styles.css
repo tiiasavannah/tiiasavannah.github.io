@@ -76,6 +76,14 @@ a:active {
   color: blue;
 }
 
+#home{
+	text-align: left;
+	float: none;
+	padding: 20px;
+	width: 80%;
+	margin-left: 10%;
+}
+
 #main{
 	text-align: left;
 	float: none;
